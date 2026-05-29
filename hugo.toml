@@ -1,0 +1,4 @@
+baseURL = 'https://hasyir47.github.io/my-portofolio/'
+locale = 'en-us'
+title = 'My Portofolio'
+theme = "ananke"
