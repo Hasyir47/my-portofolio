@@ -4,25 +4,25 @@ on:
     branches:
       - main
 
-    permissions:
-      pages: write
-      id-token: write
+permissions:
+  pages: write
+  id-token: write
 
-      jobs:
-        deploy:
-          runs-on: ubuntu-latest
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
 
-          steps:
-            - name: Checkout
-              uses: actions/checkout@v4
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-            - name: Setup Hugo
-              uses: peaceiris/actions-hugo@v3
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
 
-            - name: Upload artifact
-              uses: actions/upload-pages-artifact@v3
-              with:
-                path: ./public
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
 
-            - name: Deploy
-              uses: actions/deploy-pages@v4
+      - name: Deploy
+        uses: actions/deploy-pages@v4
