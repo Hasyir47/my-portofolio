@@ -2,10 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/my-portofolio/categories/</loc>
+    <loc>https://hasyir47.github.io/my-portofolio/about/</loc>
+    <lastmod>2026-05-26T16:33:35+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/my-portofolio/</loc>
+    <loc>https://hasyir47.github.io/my-portofolio/</loc>
+    <lastmod>2026-05-26T16:33:35+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/my-portofolio/tags/</loc>
+    <loc>https://hasyir47.github.io/my-portofolio/categories/</loc>
+  </url><url>
+    <loc>https://hasyir47.github.io/my-portofolio/tags/</loc>
   </url>
 </urlset>
